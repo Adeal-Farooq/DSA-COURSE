@@ -2,24 +2,24 @@
 using namespace std;
 
 //pass by value
-void dosomething(int num){
-  cout << num << endl;
-  num +=5;
-  cout << num << endl;
-  num += 5;
-  cout << num << endl;
+// void dosomething(int num){
+//   cout << num << endl;
+//   num +=5;
+//   cout << num << endl;
+//   num += 5;
+//   cout << num << endl;
 
-}
+// }
 
-// when we call the dosomething() copy of num is given to the this function not the actual number does not go there
-int main(){
-  int num =10;
-  dosomething(num);
+// // when we call the dosomething() copy of num is given to the this function not the actual number does not go there
+// int main(){
+//   int num =10;
+//   dosomething(num);
 
-//so here there will bw no update in the num it will 10 only 
-  cout << num << endl;
-  return 0;
-
+// //so here there will bw no update in the num it will 10 only 
+//   cout << num << endl;
+//   return 0;
+// }
 
 
 
@@ -34,5 +34,4 @@ int main(){
   dosomething(s);
   cout << s << endl;
   return 0;
-}
 }
