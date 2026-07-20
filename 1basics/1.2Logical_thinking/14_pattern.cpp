@@ -8,6 +8,16 @@ void print14(int n){
     cout << endl;
   }
 }
+
+//or just use the ASCII value
+// void print14(int n){
+//   for(int i=0; i<n; i++){
+//     for(int j = 65; j <= i +65; j++){
+//       cout << char(j);
+//     }
+//     cout << endl;
+//   }
+// }
 int main (){
   int t;
   cin >> t;
