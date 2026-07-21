@@ -10,8 +10,7 @@ using namespace std;
 // }
 
 //or just use the ASCII value
-void print14
-(int n){
+void print14(int n){
   for(int i=0; i<n; i++){
     for(int j = 65; j < n-i +65; j++){
       cout << char(j);
